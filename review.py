@@ -12,7 +12,7 @@ DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 # Kreiranje bota
 intents = discord.Intents.default()
 intents.message_content = True  
-bot = commands.Bot(command_prefix="/", intents=intents)
+bot = commands.Bot(command_prefix="/", intents=intents)aa
 
 
 @bot.event
